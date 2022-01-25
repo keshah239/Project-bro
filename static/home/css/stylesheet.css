@@ -1,0 +1,26 @@
+body {
+background-color: black;
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+}
+
+.container{
+max-width: 1046px;
+margin: 0px auto;
+background-color:green;
+}
+.img-wrapper {  
+  width: 700px;
+  height: 500px;
+  overflow: hidden; 
+}
+
+.inner-img {
+  transition: 0.3s;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
